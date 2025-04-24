@@ -1,0 +1,33 @@
+﻿,Drug,gene_name,filename,role (hypothesized),references,Entry,Uniprot,Protein names,rv,drug_full,start_position_on_the_genomic_accession,end_position_on_the_genomic_accession,orientation
+0,BDQ,amiA2,,"amidase, unknown mechanism",CRYPTIC GWAS paper,P9WQ99,AMIA2_MYCTU,Putative amidase AmiA2 (EC 3.5.1.4),Rv2363,,2644320,2645774,plus
+1,BDQ,atpE,,BDQ thought to inhbit the ATP synthase,Kadura et al (reviewed),P9WPS1,ATPL_MYCTU,ATP synthase subunit c (ATP synthase F(0) sector subunit c) (F-type ATPase subunit c) (F-ATPase subunit c) (Lipid-binding protein),Rv1305,,1461045,1461290,plus
+2,CFZ,cyp142,,cytochrome P450 enzyme,CRYPTIC GWAS paper,P9WPL5,CP142_MYCTU,Steroid C26-monooxygenase (EC 1.14.15.28) (Cholest-4-en-3-one C26-monooxygenase) (Cholest-4-en-3-one C26-monooxygenase [(25R)-3-oxocholest-4-en-26-oate forming]) (Cholesterol C26-monooxygenase) (Cholesterol C26-monooxygenase [(25R)-3beta-hydroxycholest-5-en-26-oate forming]) (Cytochrome P450 142) (Steroid C27-monooxygenase),Rv3518c,,3954325,3955521,minus
+3,DLM,ddn,,activates the pro-drug,Kadura et al (reviewed),P9WP15,DDN_MYCTU,Deazaflavin-dependent nitroreductase (EC 1.-.-.-) (F420H(2)-dependent quinone reductase Ddn) (Fqr) (EC 1.1.98.-),Rv3547,,3986844,3987299,plus
+5,BDQ,era,,"GTPase, unknown mechanism",CRYPTIC GWAS paper,P9WNK9,ERA_MYCTU,GTPase Era,Rv2364c,,2645771,2646673,minus
+6,DLM,fbiA,,involved in ddn synthesis,Kadura et al (reviewed),P9WP81,FBIA_MYCTU,Phosphoenolpyruvate transferase (EC 2.7.8.28) (EPPG:FO PEP transferase),Rv3261,,3640543,3641538,plus
+8,PTD,fbiB,,involved in ddn synthesis,Kadura et al (reviewed),P9WP79,FBIB_MYCTU,Bifunctional F420 biosynthesis protein FbiB [Includes: Coenzyme F420:L-glutamate ligase (EC 6.3.2.31) (EC 6.3.2.34) (Coenzyme F420-0:L-glutamate ligase) (Coenzyme F420-1:gamma-L-glutamate ligase); Dehydro-coenzyme F420-0 reductase (EC 1.3.8.-)],Rv3262,,3641535,3642881,plus
+10,DLM,fbiC,,involved in ddn synthesis,Kadura et al (reviewed),P9WP77,FBIC_MYCTU,"FO synthase [Includes: 7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase (EC 4.3.1.32); 5-amino-6-(D-ribitylamino)uracil--L-tyrosine 4-hydroxyphenyl transferase (EC 2.5.1.147)]",Rv1173,,1302931,1305501,plus
+12,DLM,fbiD,,involved in ddn synthesis,"WHO 2021 catalog, category 3",P9WP83,FBID_MYCTU,Phosphoenolpyruvate guanylyltransferase (PEP guanylyltransferase) (EC 2.7.7.68),Rv2983,,3339118,3339762,plus
+13,DLM,fgd1,,ddn recycling,Kadura et al (reviewed),P9WNE1,FGD_MYCTU,F420-dependent glucose-6-phosphate dehydrogenase (FGD) (FGD1) (G6PD) (EC 1.1.98.2),Rv0407,,490783,491793,plus
+15,BDQ,mmpL5,,possible efflux pumpv,"WHO 2021 catalog, category 3",P9WJV1,MMPL5_MYCTU,Siderophore exporter MmpL5,Rv0676c,,775586,778480,minus
+17,BDQ,mmpR,,"transcriptional repressor, thought to control efflux pump mmpS5-mmpL5",Kadura et al (reviewed),I6Y8F7,MMPR5_MYCTU,HTH-type transcriptional regulator MmpR5,Rv0678,,778990,779487,plus
+19,BDQ,mmpS5,,possible efflux pumpv,"WHO 2021 catalog, category 3",P9WJS7,MMPS5_MYCTU,Siderophore export accessory protein MmpS5,Rv0677c,,778477,778905,minus
+21,BDQ,pepQ,,unknown - hypothesized efflux,Kadura et al (reviewed),I6YDN6,I6YDN6_MYCTU,Probable cytoplasmic peptidase PepQ,Rv2535c,,2859300,2860418,minus
+23,DLM,pknH,,serine/threonine protein kinase,CRYPTIC GWAS paper,P9WI71,PKNH_MYCTU,Serine/threonine-protein kinase PknH (EC 2.7.11.1),Rv1266c,,1413960,1415840,minus
+24,LZD,rplC,rplC.fasta,LZD is hypothesized to bind to the ribosome,Kadura et al (reviewed),P9WH87,RL3_MYCTU,50S ribosomal protein L3,Rv0701,LINEZOLID,800809,801462,plus
+25,CFZ,Rv1979c,,membrane transporter,Kadura et al (reviewed),P9WQM5,Y1979_MYCTU,Uncharacterized transporter Rv1979c,Rv1979c,,2221719,2223164,minus
+26,LZD,vapB20,,toxin modifies the rRNA? ,CRYPTIC GWAS paper,P9WJ45,VPB20_MYCTU,Antitoxin VapB20,Rv2550c,,2870119,2870364,minus
+27,RIF,rpoB,rpoBC.fasta,,"WHO 2021 catalog, category 1",P9WGY9,RPOB_MYCTU,DNA-directed RNA polymerase subunit beta (RNAP subunit beta) (EC 2.7.7.6) (RNA polymerase subunit beta) (Transcriptase subunit beta),Rv0667,rifampicin,759806,763324,plus
+28,INH,inhA,FabG1-inhA.fasta,,"WHO 2021 catalog, category 1",P9WGR1,INHA_MYCTU,Enoyl-[acyl-carrier-protein] reductase [NADH] (ENR) (Enoyl-ACP reductase) (EC 1.3.1.9) (FAS-II enoyl-ACP reductase) (NADH-dependent 2-trans-enoyl-ACP reductase),Rv1484,isoniazid,1674201,1675010,plus
+29,INH,katG,katG.fasta,,"WHO 2021 catalog, category 1",P9WIE5,KATG_MYCTU,Catalase-peroxidase (CP) (EC 1.11.1.21) (Peroxidase/catalase),Rv1908c,isoniazid,2153889,2156111,minus
+30,EMB,embB,embCAB.fasta,,"WHO 2021 catalog, category 1",P9WNL7,EMBB_MYCTU,Probable arabinosyltransferase B (EC 2.4.2.-),Rv3795,ethambutol,4246513,4249809,plus
+31,PZA,pncA,pncA.fasta,,"WHO 2021 catalog, category 1",I6XD65,PNCA_MYCTU,Nicotinamidase/pyrazinamidase (Nicotinamidase) (EC 3.5.1.19) (Nicotinamide deamidase) (NAMase) (Pyrazinamidase) (PZAase) (EC 3.5.1.-),Rv2043c,pyrazinamide,2288681,2289241,minus
+32,LEV,gyrA,gyrBA.fasta,,"WHO 2021 catalog, category 1",P9WG47,GYRA_MYCTU,DNA gyrase subunit A (EC 5.6.2.2) (Type IIA topoisomerase subunit GyrA),Rv0006,moxifloxacin,7301,9817,plus
+33,STM,rpsL,rpsL.fasta,,"WHO 2021 catalog, category 1",P9WH63,RS12_MYCTU,30S ribosomal protein S12,Rv0682,streptomycin,781559,781933,plus
+34,STM,gid,gid.fasta,,"WHO 2021 catalog, category 1",P9WGW9,RSMG_MYCTU,Ribosomal RNA small subunit methyltransferase G (EC 2.1.1.-) (16S rRNA 7-methylguanosine methyltransferase) (16S rRNA m7G methyltransferase) (Glucose-inhibited division protein B),Rv3919c,streptomycin,4407528,4408202,minus
+35,ETH,ethA,ethAR.fasta,,"WHO 2021 catalog, category 1",P9WNF9,ETHA_MYCTU,FAD-containing monooxygenase EthA (EC 1.14.13.-) (Baeyer-Villiger monooxygenase EtaA) (BVMO) (Prodrug activator EtaA),Rv3854c,ethionamide,4326004,4327473,minus
+36,BDQ,Rv0678,Rv0678.fasta,,,I6Y8F7,MMPR5_MYCTU,,Rv0678,bedaquiline,778990,779487,plus
+37,AMC,eis ,eis.fasta,,,P9WFK7,missing,,Rv2416c,amikacin,2714124,2715332,minus
+39,,rrs-rrl ,,LZD is hypothesized to bind to the ribosome,Kadura et al (reviewed),,,,exclude -  not a protein,,,,
+40,CM,tlyA,tlyA.fasta,,,P9WJ63,TLYA_MYCTU,,Rv1694,capreomycin,1917939,1918745,plus
+41,LEV,gyrB,gyrB.fasta,,,P9WG45,GYRB_MYCTU,,Rv0005,levofloxacin,5240,7267,plus

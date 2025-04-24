@@ -1,0 +1,386 @@
+{
+    "rpoB": {
+        "enhanced": {
+            "alpha": 0.1,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.01,
+            "decay_type": "harmonic",
+            "beta": 1.0,
+            "clip":0.9,
+            "momentum": 0.0,
+            "mean_val_score": 0.065951865029963,
+            "mean_iterations": 1000.0
+        },
+        "vanilla": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 1e-05,
+            "decay_type": null,
+            "beta": 0.1,
+            "momentum": 0.0,
+            "mean_val_score": 0.06532,
+            "mean_iterations": 1000.0
+        },
+        "momentum": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 1e-05,
+            "decay_type": null,
+            "beta": 0.1,
+            "momentum": 0.8,
+            "mean_val_score": 0.0667543952829906,
+            "mean_iterations": 1000.0
+        },
+        "nesterov": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 1e-05,
+            "decay_type": null,
+            "beta": 0.1,
+            "momentum": 0.8,
+            "mean_val_score": 0.0667560853466859,
+            "mean_iterations": 1000.0
+        }
+    },
+    "inhA": {
+        "enhanced": {
+            "alpha": 0.1,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.000001,
+            "decay_type": "harmonic",
+            "beta": 0.1,
+            "momentum": 0.0,
+            "mean_val_score": 0.2911284149426391,
+            "mean_iterations": 1000.0
+        },
+        "vanilla": {
+            "alpha": 0.1,
+            "lambda_fuse": 20.0,
+            "learning_rate": 0.001,
+            "decay_type": "harmonic",
+            "beta": 1.0,
+            "momentum": 0.0,
+            "mean_val_score": 0.3090429359522281,
+            "mean_iterations": 223.8
+        },
+        "momentum": {
+            "alpha": 1.0,
+            "lambda_fuse": 0.5,
+            "learning_rate": 0.01,
+            "decay_type": "harmonic",
+            "beta": 0.1,
+            "momentum": 0.99,
+            "mean_val_score": 0.2432543677432616,
+            "mean_iterations": 56.0
+        },
+        "nesterov": {
+            "alpha": 1.0,
+            "lambda_fuse": 1.0,
+            "learning_rate": 0.01,
+            "decay_type": "harmonic",
+            "beta": 0.1,
+            "momentum": 0.99,
+            "mean_val_score": 0.2564351247711848,
+            "mean_iterations": 57.0
+        }
+    },
+    "embB": {
+        "enhanced": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.001,
+            "decay_type": "harmonic",
+            "beta": 0.1,
+            "clip":0.9,
+            "momentum": 0.0,
+            "mean_val_score": 0.0712619497819731,
+            "mean_iterations": 1000.0
+        },
+        "vanilla": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 1e-05,
+            "decay_type": "harmonic",
+            "beta": 0.1,
+            "momentum": 0.0,
+            "mean_val_score": 0.0691273845010089,
+            "mean_iterations": 1000.0
+        },
+        "momentum": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 1e-05,
+            "decay_type": null,
+            "beta": 0.1,
+            "momentum": 0.8,
+            "mean_val_score": 0.0713299100512505,
+            "mean_iterations": 1000.0
+        },
+        "nesterov": {
+            "alpha": 0.1,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.001,
+            "decay_type": "harmonic",
+            "beta": 1.0,
+            "momentum": 0.8,
+            "mean_val_score": 0.0714646365532691,
+            "mean_iterations": 1000.0
+        }
+    },
+    "gyrA": {
+        "enhanced": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.001,
+            "decay_type": "harmonic",
+            "beta": 0.7,
+            "clip":0.9,
+            "momentum": 0.0,
+            "mean_val_score": 0.0490526099606996,
+            "mean_iterations": 1000.0
+        },
+        "vanilla": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 1e-05,
+            "decay_type": "harmonic",
+            "beta": 0.7,
+            "momentum": 0.0,
+            "mean_val_score": 0.0491050262415568,
+            "mean_iterations": 1000.0
+        },
+        "momentum": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 1e-05,
+            "decay_type": "harmonic",
+            "beta": 0.7,
+            "momentum": 0.99,
+            "mean_val_score": 0.0489340842263845,
+            "mean_iterations": 1000.0
+        },
+        "nesterov": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 1e-05,
+            "decay_type": "harmonic",
+            "beta": 0.7,
+            "momentum": 0.99,
+            "mean_val_score": 0.0489352305188733,
+            "mean_iterations": 1000.0
+        }
+    },
+    "rpsL": {
+        "enhanced": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.01,
+            "decay_type": "harmonic",
+            "beta": 0.1,
+            "momentum": 0.0,
+            "mean_val_score": 0.3530424676675743,
+            "mean_iterations": 1000.0
+        },
+        "vanilla": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.001,
+            "decay_type": null,
+            "beta": 0.1,
+            "momentum": 0.0,
+            "mean_val_score": 0.3663977627463591,
+            "mean_iterations": 1000.0
+        },
+        "momentum": {
+            "alpha": 0.1,
+            "lambda_fuse": 5.0,
+            "learning_rate": 0.01,
+            "decay_type": "harmonic",
+            "beta": 0.1,
+            "momentum": 0.99,
+            "mean_val_score": 0.2015513890647008,
+            "mean_iterations": 56.0
+        },
+        "nesterov": {
+            "alpha": 0.1,
+            "lambda_fuse": 1.0,
+            "learning_rate": 0.01,
+            "decay_type": "harmonic",
+            "beta": 0.1,
+            "momentum": 0.99,
+            "mean_val_score": 0.3022435552825089,
+            "mean_iterations": 57.0
+        }
+    },
+    "pncA": {
+        "enhanced": {
+            "alpha": 0.1,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.01,
+            "decay_type": "harmonic",
+            "beta": 0.7,
+            "momentum": 0.0,
+            "mean_val_score": 0.4731285106924863,
+            "mean_iterations": 314.2
+        },
+        "vanilla": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 1e-05,
+            "decay_type": "harmonic",
+            "beta": 0.3,
+            "momentum": 0.0,
+            "mean_val_score": 0.4750293807701927,
+            "mean_iterations": 1000.0
+        },
+        "momentum": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.001,
+            "decay_type": "harmonic",
+            "beta": 1.0,
+            "momentum": 0.8,
+            "mean_val_score": 0.4750277709289586,
+            "mean_iterations": 1000.0
+        },
+        "nesterov": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.0001,
+            "decay_type": "harmonic",
+            "beta": 0.3,
+            "momentum": 0.9,
+            "mean_val_score": 0.4753574702929373,
+            "mean_iterations": 1000.0
+        }
+    },
+    "ethA": {
+        "enhanced": {
+            "alpha": 1.0,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.0001,
+            "decay_type": "harmonic",
+            "beta": 0.1,
+            "clip":0.9,
+            "momentum": 0.0,
+            "mean_val_score": 0.2530967576469668,
+            "mean_iterations": 1000.0
+        },
+        "vanilla": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 1e-05,
+            "decay_type": "harmonic",
+            "beta": 0.7,
+            "momentum": 0.0,
+            "mean_val_score": 0.2521718173092854,
+            "mean_iterations": 1000.0
+        },
+        "momentum": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.0001,
+            "decay_type": "harmonic",
+            "beta": 1.0,
+            "momentum": 0.8,
+            "mean_val_score": 0.2521643608310537,
+            "mean_iterations": 1000.0
+        },
+        "nesterov": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.0001,
+            "decay_type": "harmonic",
+            "beta": 1.0,
+            "momentum": 0.8,
+            "mean_val_score": 0.2521803274415821,
+            "mean_iterations": 1000.0
+        }
+    },
+    "gid": {
+        "enhanced": {
+            "alpha": 5.0,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.0001,
+            "decay_type": null,
+            "beta": 0.1,
+            "clip":0.9,
+            "momentum": 0.0,
+            "mean_val_score": 0.3230158367814543,
+            "mean_iterations": 1000.0
+        },
+        "vanilla": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.0001,
+            "decay_type": "harmonic",
+            "beta": 1.0,
+            "momentum": 0.0,
+            "mean_val_score": 0.2744607591638686,
+            "mean_iterations": 1000.0
+        },
+        "momentum": {
+            "alpha": 1.0,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.001,
+            "decay_type": "harmonic",
+            "beta": 1.0,
+            "momentum": 0.99,
+            "mean_val_score": 0.3006,
+            "mean_iterations": 126.4
+        },
+        "nesterov": {
+            "alpha": 1.0,
+            "lambda_fuse": 0.01,
+            "learning_rate": 0.01,
+            "decay_type": null,
+            "beta": 0.1,
+            "momentum": 0.8,
+            "mean_val_score": 0.3051197684733116,
+            "mean_iterations": 128.8
+        }
+    },
+    "katG": {
+        "enhanced": {
+            "alpha": 10,
+            "lambda_fuse": 10,
+            "learning_rate": 0.000001,
+            "decay_type": "harmonic",
+            "beta": 0.1,
+            "clip":0.9,
+            "momentum": 0.0,
+            "mean_val_score": 0.2747388136481941,
+            "mean_iterations": 229.8
+        },
+        "vanilla": {
+            "alpha": 0.01,
+            "lambda_fuse": 0.01,
+            "learning_rate": 1e-05,
+            "decay_type": "harmonic",
+            "beta": 1.0,
+            "momentum": 0.0,
+            "mean_val_score": 0.2053257414259862,
+            "mean_iterations": 1000.0
+        },
+        "momentum": {
+            "alpha": 20.0,
+            "lambda_fuse": 0.1,
+            "learning_rate": 0.001,
+            "decay_type": "harmonic",
+            "beta": 0.7,
+            "momentum": 0.9,
+            "mean_val_score": 0.3077772976933156,
+            "mean_iterations": 1000.0
+        },
+        "nesterov": {
+            "alpha": 20.0,
+            "lambda_fuse": 0.1,
+            "learning_rate": 0.001,
+            "decay_type": "harmonic",
+            "beta": 0.7,
+            "momentum": 0.9,
+            "mean_val_score": 0.3077861365720635,
+            "mean_iterations": 1000.0
+        }
+    }
+}
