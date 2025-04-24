@@ -86,11 +86,10 @@ generalization_tests.ipynb
 - Subsampling confirms generalization benefit from more samples for genes like *embB*, *inhA*.
 - Novelty analysis shows substantial unseen mutation rates in test sets, affirming the value of deduplication.
 
----
 
-## Example Visualization
+<!-- ## Example Visualization
 
-![Heatmap Example](results/example_heatmap.png)
+![Heatmap Example](results/example_heatmap.png) -->
 
 ---
 
