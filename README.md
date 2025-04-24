@@ -87,9 +87,9 @@ generalization_tests.ipynb
 - Novelty analysis shows substantial unseen mutation rates in test sets, affirming the value of deduplication.
 
 
-<!-- ## Example Visualization
+## Model Training Schematic
 
-![Heatmap Example](results/example_heatmap.png) -->
+![Model Schematic](fused_ridge_schematic.png) 
 
 ---
 
